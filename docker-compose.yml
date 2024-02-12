@@ -1,6 +1,6 @@
 111version: '3.1'
 
-services:
+services:222
   springboot:
     image: dockerhandson/spring-boot-mongo:latest
     restart: always # This will be ignored if we deploy in docker swarm
