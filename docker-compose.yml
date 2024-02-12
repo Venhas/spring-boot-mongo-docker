@@ -1,7 +1,12 @@
 version: '3.1'
 
+<<<<<<< Updated upstream
 services:
   springboot:
+=======
+services:222
+  springboot: stash changes 
+>>>>>>> Stashed changes
     image: dockerhandson/spring-boot-mongo:latest
     restart: always # This will be ignored if we deploy in docker swarm
     container_name: springboot
